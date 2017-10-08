@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>HangMan</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+  <div class="jumbotron">
+  	<h1>Hangman</h1>
+  	<p>Guess the Sea Animal</p>
+  </div>	
+  <div class="row">
+    <div class="col-sm-4">
+    	<div class="panel panel-default">
+    		<div class="panel-body">
+    			<div>Guesses Left: <span id="numGuess"></span></div>
+    			<div>Wins: <span id="numWin"></span></div>
+    			<div>Losses: <span id="numLoss"></span></div>
+    			<div>Letters Used: <span id="usedLetters"></span></div>
+    		</div>
+    	</div>
+    </div>	
+	    <div class="col-sm-8">
+	    	<div class="panel panel-default">
+	    		<div class="panel-heading">
+	    			<h2 class="panel-title">What am I?</h2>
+	    		</div>
+	    		<div class="panel-body">
+	       			<div id="animal"></div>
+	       		</div>	
+	    		<h1></h1>
+	    	</div>
+    	</div>	
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
